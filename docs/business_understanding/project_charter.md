@@ -13,8 +13,18 @@
 ### Incluye:
 
 - [Descripción de los datos disponibles]
+  
+ Los datos disponibles consisten en series temporales del índice S&P 500, que incluyen información diaria sobre el valor del índice, así como datos históricos sobre precios de apertura, cierre, máximo y mínimo, volumen de operaciones.Estos datos abarcan un período significativo de tiempo y se utilizarán como entrada para entrenar la red neuronal LSTM.
 - [Descripción de los resultados esperados]
+  
+Para lograr esto, la red recurrente analizará secuencias de datos pasadas del S&P 500 y aprenderá a identificar patrones que preceden a ciertos movimientos en el mercado, como períodos de aumento, disminución o estabilidad. Luego, utilizará estos patrones aprendidos para generar un valor aproximado del indice en el dia siguiente. Esto permitirá a inversores identificar cuando comprar, vender o mantener acciones del S&P 500 en función de las tendencias identificadas en los datos históricos.
 - [Criterios de éxito del proyecto]
+
+  - Precisión y fiabilidad del modelo: El modelo debe ser preciso y confiable en la generación de sugerencias de inversión basadas en el análisis de las series temporales del S&P 500.
+  
+  - Adaptabilidad del modelo: El modelo debe ser capaz de adaptarse a cambios en las condiciones del mercado y continuar generando sugerencias relevantes y útiles a medida que se actualizan los datos.
+    
+  - Facilidad de uso: La interfaz del producto final debe ser intuitiva y fácil de usar para los usuarios, permitiendo una rápida comprensión y aplicación de las sugerencias de inversión generadas por el modelo.
 
 ### Excluye:
 
@@ -24,35 +34,27 @@
 
 [Descripción breve de la metodología que se utilizará para llevar a cabo el proyecto]
 
+
+El proyecto utilizará una metodología de desarrollo de modelos de aprendizaje profundo, centrándose en el uso de redes neuronales LSTM para analizar series temporales del índice S&P 500. Se llevará a cabo un proceso de preparación y limpieza de datos para garantizar la calidad y coherencia de los datos de entrada. Luego, se procederá con la construcción, entrenamiento y validación de la red neuronal LSTM utilizando conjuntos de datos históricos del S&P 500. Se implementará un proceso de ajuste de hiperparámetros para optimizar el rendimiento del modelo. Finalmente, se evaluará el modelo utilizando métricas de rendimiento pertinentes y se realizarán pruebas exhaustivas para garantizar su precisión y confiabilidad para su posterior despliegue.
+
 ## Cronograma
 
 | Etapa | Duración Estimada | Fechas |
 |------|---------|-------|
-| Entendimiento del negocio y carga de datos | 2 semanas | del 1 de mayo al 15 de mayo |
-| Preprocesamiento, análisis exploratorio | 4 semanas | del 16 de mayo al 15 de junio |
-| Modelamiento y extracción de características | 4 semanas | del 16 de junio al 15 de julio |
-| Despliegue | 2 semanas | del 16 de julio al 31 de julio |
-| Evaluación y entrega final | 3 semanas | del 1 de agosto al 21 de agosto |
+| Entendimiento del negocio y carga de datos | 1 semanas | del 2 de mayo al 9 de mayo |
+| Preprocesamiento, análisis exploratorio | 1 semanas | del 9 de mayo al 16 de mayo |
+| Modelamiento y extracción de características | 1 semanas | del 16 de mayo al 23 de mayo |
+| Despliegue | 1 semanas | del 23 de mayo al 30 de mayo |
+| Evaluación y entrega final | 1 semanas | del 30 de mayo al  2 jun 2024 |
 
 Hay que tener en cuenta que estas fechas son de ejemplo, estas deben ajustarse de acuerdo al proyecto.
 
 ## Equipo del Proyecto
 
-- [Nombre y cargo del líder del proyecto]
-- [Nombre y cargo de los miembros del equipo]
+-
+-
+-
 
-## Presupuesto
+ 
 
-[Descripción del presupuesto asignado al proyecto]
 
-## Stakeholders
-
-- [Nombre y cargo de los stakeholders del proyecto]
-- [Descripción de la relación con los stakeholders]
-- [Expectativas de los stakeholders]
-
-## Aprobaciones
-
-- [Nombre y cargo del aprobador del proyecto]
-- [Firma del aprobador]
-- [Fecha de aprobación]
