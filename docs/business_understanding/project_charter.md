@@ -2,11 +2,14 @@
 
 ## Nombre del Proyecto
 
-[Nombre del proyecto aquí]
+Metodologías Ágiles para el Desarrollo de Aplicaciones con Machine Learning - Prediccion Valores del Indice S&P500
 
 ## Objetivo del Proyecto
-
 [Descripción breve del objetivo del proyecto y por qué es importante]
+
+El presente proyecto se plantea con el objetivo de poder estudiar y predecir los comportamientos que tiene el índice S&P 500 lo cual puede resultar util para diferentes beneficiarios tales como: fondos de inversión, gestores de cartera, inversionistas individuales, analistas financieros y consultores. Con esto se busca que los diferentes operadores del mercado bursatil tengan una herramienta que ayude a la toma de decisiones que permita tener mejores resultados, teniendo un modelo que basado en un historico permita conocer si el indice subira, bajara o se mantendra en un dia especifico.
+
+Para obtener un modelo que traiga informacion de calidad se deben resolver algunos retos tal como la prediccion con una anticipacion lo suficientemente buena para que permita tomar decisiones que se vean reflejadas del S&P 500. Esto lograria que los actores del mercado pudieran reducir el riesgo y optimizar las gananacias, de esta manera se busca reducir la incertidumbre que tiene el mercado historicamente, buscando tomar informaciones mas informadas y sustentadas con los datos que se pueden obtener para el estudio.
 
 ## Alcance del Proyecto
 
@@ -51,9 +54,9 @@ Hay que tener en cuenta que estas fechas son de ejemplo, estas deben ajustarse d
 
 ## Equipo del Proyecto
 
--
--
--
+Jorge Steban Moreno Lozano jorgestebanmorenolozano@gmail.com
+Julian Mauricio Rodriguez Barreto jumrodriguezba@unal.edu.co
+Jose Francisco Lugo Nomesque jlugon@unal.edu.co
 
  
 
