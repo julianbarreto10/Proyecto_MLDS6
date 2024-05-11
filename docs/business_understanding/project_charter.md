@@ -54,9 +54,9 @@ Hay que tener en cuenta que estas fechas son de ejemplo, estas deben ajustarse d
 
 ## Equipo del Proyecto
 
-Jorge Steban Moreno Lozano jorgestebanmorenolozano@gmail.com
-Julian Mauricio Rodriguez Barreto jumrodriguezba@unal.edu.co
-Jose Francisco Lugo Nomesque jlugon@unal.edu.co
+- Jorge Steban Moreno Lozano jorgestebanmorenolozano@gmail.com
+- Julian Mauricio Rodriguez Barreto jumrodriguezba@unal.edu.co
+- Jose Francisco Lugo Nomesque jlugon@unal.edu.co
 
  
 
