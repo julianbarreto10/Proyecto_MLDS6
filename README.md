@@ -8,6 +8,7 @@
   Presentado por:
 #### $\textit{Jorge Steban Moreno Lozano}$ [jorgestebanmorenolozano@gmail.com]()
 #### $\textit{Julian Mauricio Rodriguez Barreto}$ [jumrodriguezba@unal.edu.co]()
+#### $\textit{Jose Francisco Lugo Nomesque}$ [jlugon@unal.edu.co]()
 
 ---
 
