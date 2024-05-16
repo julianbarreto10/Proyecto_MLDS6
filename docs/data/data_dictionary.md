@@ -1,8 +1,8 @@
 # Diccionario de datos
 
-## Base de datos 1
+## df_sp500
 
-**Agregar una descripción de la tabla o fuente de datos.
+La tabal muestra todas las variables incluidas en el dataframe desde su carga desde google drive, ademas de la varaible "SENT" la cual fue agregada para evaluar el comportamiento entre dias del indice.
 
 | Variable | Descripción | Tipo de dato | Rango/Valores posibles | Fuente de datos |
 | --- | --- | --- | --- | --- |
@@ -12,7 +12,7 @@
 | Máximo | punto máximo de la cotización durante el día de negociación |  float | 400-200 |df_sp500 |
 | Mínimo	|  punto más bajo de la cotización durante el día de negociación. |  float | 400-200 |df_sp500 |
 | 	% var.	| cantidad total de acciones del índice S&P 500 que se intercambiaron durante el período de tiempo determinado | float | -5 - 5 |df_sp500  |
-| SENT	|  punto más bajo de la cotización durante el día de negociación. |  float | 400-200 |df_sp500 |
+| SENT	|  cambio del indice entre dia |  texto | positivo - negatico - neutro |df_sp500 |
 
 
 
