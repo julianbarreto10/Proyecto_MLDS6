@@ -1,38 +1,19 @@
 # Diccionario de datos
 
-## Base de datos 1
+## df_sp500
 
-**Agregar una descripción de la tabla o fuente de datos.
-
-| Variable | Descripción | Tipo de dato | Rango/Valores posibles | Fuente de datos |
-| --- | --- | --- | --- | --- |
-| variable_1 | Descripción de la variable 1 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
-| variable_2 | Descripción de la variable 2 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
-| variable_3 | Descripción de la variable 3 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
-| variable_4 | Descripción de la variable 4 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
-| variable_5 | Descripción de la variable 5 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
-
-- **Variable**: nombre de la variable.
-- **Descripción**: breve descripción de la variable.
-- **Tipo de dato**: tipo de dato que contiene la variable.
-- **Rango/Valores posibles**: rango o valores que puede tomar la variable.
-- **Fuente de datos**: fuente de los datos de la variable.
-
-## Base de datos 2
-
-**Agregar una descripción de la tabla o fuente de datos.
+La tabal muestra todas las variables incluidas en el dataframe desde su carga desde google drive, ademas de la varaible "SENT" la cual fue agregada para evaluar el comportamiento entre dias del indice.
 
 | Variable | Descripción | Tipo de dato | Rango/Valores posibles | Fuente de datos |
 | --- | --- | --- | --- | --- |
-| variable_1 | Descripción de la variable 1 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
-| variable_2 | Descripción de la variable 2 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
-| variable_3 | Descripción de la variable 3 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
-| variable_4 | Descripción de la variable 4 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
-| variable_5 | Descripción de la variable 5 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
+| Fecha | fecha en la que se registraron los precios históricos. | Fecha "YYYY-MM-DD" | 1994-04-04 - 2014-02-10 | df_sp500 |
+| Último |  precio al que se negociaron las acciones al final del día de operaciones. | float | (400,200) | df_sp500 |
+| Apertura | precio con el que se inicia la sesión de negociación.| float | (400,200) |df_sp500 |
+| Máximo | punto máximo de la cotización durante el día de negociación |  float | (400,200) |df_sp500 |
+| Mínimo	|  punto más bajo de la cotización durante el día de negociación. |  float | (400,200) |df_sp500 |
+| 	% var.	| cantidad total de acciones del índice S&P 500 que se intercambiaron durante el período de tiempo determinado | float | (-5 , 5) |df_sp500  |
+| SENT	|  cambio del indice entre dia |  texto | positivo - negatico - neutro |df_sp500 |
 
-- **Variable**: nombre de la variable.
-- **Descripción**: breve descripción de la variable.
-- **Tipo de dato**: tipo de dato que contiene la variable.
-- **Rango/Valores posibles**: rango o valores que puede tomar la variable.
-- **Fuente de datos**: fuente de los datos de la variable.
+
+
 
