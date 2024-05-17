@@ -8,20 +8,32 @@ En esta sección se presenta un resumen general de los datos. Se describe el nú
 
 ## Resumen de calidad de los datos
 
-En esta sección se presenta un resumen de la calidad de los datos. Se describe la cantidad y porcentaje de valores faltantes, valores extremos, errores y duplicados. También se muestran las acciones tomadas para abordar estos problemas.
+Tal como se abordo en la definicion de los datos dado que habian valores faltantes en 4 de las columnas porlo que fue necesario hacer un preprocesamiento que permitiera trabajar de una manera correcta para esto se aplicaron las transformaciones habladas anteriormente y de esta manera se pudo obtener datos de una buena calidad.
 
 ## Variable objetivo
 
-En esta sección se describe la variable objetivo. Se muestra la distribución de la variable y se presentan gráficos que permiten entender mejor su comportamiento.
+El conjunto de datos tiene una variable a estimar y es la variable continua objetivo "Último" la cual trae informacion del comportamiento del indice al momento del cierre del mercado de valores. En la imagen a continuacion se puede ver el comportamiento general de la variable "ultimo" ya que podemos ver en general cual fue el comportamiento del indice a lo largo de la historia y asi estudiarla para el presente modelo, de esta manera se pudo conocer que no se tiene variaciones tan significativas pero con una tendencia al comportamiento positivo.
+
+![Alt text](Figura_1.png)
 
 ## Variables individuales
 
-En esta sección se presenta un análisis detallado de cada variable individual. Se muestran estadísticas descriptivas, gráficos de distribución y de relación con la variable objetivo (si aplica). Además, se describen posibles transformaciones que se pueden aplicar a la variable.
+
+En los graficos msotrados se ve una relacion directa entre las diferentes variables, esto se debe a que el precio del indice S&P 500 de un dia en especifico està muy ligado a su comportamiento durante ese dia, lo cual muestra una relacion fuerte. Por esta razon, estas variables seran tenidas en cuenta ya que el conjunto de estas demuestra la variabilidad que tuvo durante un dia el precio del indice y puede ayudar al modelo a dar sugerencias de inversion, esto serà util a la hora de determinar los dias anteriores a tener en cuenta para poder predecir un comportamiento futuro.
+
+![Alt text](Figura_2.png)
 
 ## Ranking de variables
 
-En esta sección se presenta un ranking de las variables más importantes para predecir la variable objetivo. Se utilizan técnicas como la correlación, el análisis de componentes principales (PCA) o la importancia de las variables en un modelo de aprendizaje automático.
+A continuacion se visualizan los comportamientos de los datos maximos y minimos asi como de la apertura y cierre y la manera de comportarse en diferentes periodos de tiempo lo cula permite visualizar mejor las variables y los cambios que presentan
 
+![Alt text](Figura_3.png)
+
+![Alt text](Interactivo_1.png)
+
+![Alt text](Interactivo_2.png)
 ## Relación entre variables explicativas y variable objetivo
 
-En esta sección se presenta un análisis de la relación entre las variables explicativas y la variable objetivo. Se utilizan gráficos como la matriz de correlación y el diagrama de dispersión para entender mejor la relación entre las variables. Además, se pueden utilizar técnicas como la regresión lineal para modelar la relación entre las variables.
+![Alt text](Figura_4.png)
+
+EL anterior grafico muestra una correlacion alta del precio de la acciòn con el comportamiento en dias anteriores, incluso hasta 120 rezagos o dias anteriores tienen una correlacion suerior al 75%, sin embargo entre mas rezagos se tengan en cuenta mayor cantidad de variables se tendran que no seran del todo representativas del precio actual, por lo cual se tendran en cuenta solo los rezagos mas significativos con una correlacion superior al 90%, 30 rezagos o el comportamiento del indice en el ultimo mes.
