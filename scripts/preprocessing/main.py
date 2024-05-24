@@ -24,7 +24,6 @@ def data_prepocessing():
     df_sp500=df_sp500.drop(columns=["Vol."])
     #Se agrega la columna de SEN  como etiquetas de varabiable categorica para ver describir comportamientos positivos negativos o neutros del mercado
     df_sp500['SENT']=['Positivo' if var>=0.17 else 'Negativo' if var<=-0.17 else 'Neutro' for var in df_sp500['% var.'] ]
-    print(df_sp500)
     return df_sp500
 
 data_prepocessing()
