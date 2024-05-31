@@ -1,0 +1,10 @@
+h5py==3.11.0
+joblib==1.4.2
+Markdown==3.6
+matplotlib==3.9.0
+ml-dtypes==0.3.2
+mlflow==2.13.0 
+pandas==2.2.2
+pyngrok==7.1.6
+requests==2.31.0
+tensorflow==2.16.1
