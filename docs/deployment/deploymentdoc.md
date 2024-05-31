@@ -2,11 +2,17 @@
 
 ## Infraestructura
 
-- **Nombre del modelo:** (nombre que se le ha dado al modelo)
-- **Plataforma de despliegue:** (plataforma donde se va a desplegar el modelo)
-- **Requisitos técnicos:** (lista de requisitos técnicos necesarios para el despliegue, como versión de Python, bibliotecas de terceros, hardware, etc.)
-- **Requisitos de seguridad:** (lista de requisitos de seguridad necesarios para el despliegue, como autenticación, encriptación de datos, etc.)
-- **Diagrama de arquitectura:** (imagen que muestra la arquitectura del sistema que se utilizará para desplegar el modelo)
+- **Nombre del modelo: Predicción y clasificacion del indiece S&P500 segun su valor historico.
+- **Plataforma de despliegue: mlFlow 
+- **Requisitos técnicos:
+  MLflow requiere Python 3.6 or posterior.
+  Se recomienda usar un entorno virtual (virtualenv, conda)
+  Instalar MLflow usando pip: pip install mlflow.
+  Para carecteristicas adicionales como el soporte a scikit-learn y otras bibliotecas, instale con el comando: pip install mlflow[extras].
+  
+- **Requisitos de seguridad: Utilizar un token de autenticación ngrok y mlFlow para accerder.
+
+- visualizar imagen para el diagrama de la arquitectura.
 
 ## Código de despliegue
 
@@ -16,7 +22,23 @@
 
 ## Documentación del despliegue
 
-- **Instrucciones de instalación:** (instrucciones detalladas para instalar el modelo en la plataforma de despliegue)
+- **Instrucciones de instalación:
+  1. Clonar el repositorio del proyecto.
+  2. Crear y activar un entorno virtual.
+  3. Instalar las dependencias del proyecto.
+  4. Instalar y configurar ngrok:
+     -Descarga ngrok desde ngrok.com.
+     -Extrae el archivo descargado y muévelo a una ubicación en tu PATH.
+     -Autenticar  cuenta de ngrok
 - **Instrucciones de configuración:** (instrucciones detalladas para configurar el modelo en la plataforma de despliegue)
-- **Instrucciones de uso:** (instrucciones detalladas para utilizar el modelo en la plataforma de despliegue)
+  1. Creación de cuenta
+  2. Generación de token
+  3. Lanzamiento del servidor 
+  4. Configuracion del token 
+  5. Conexion al servidor
+  
+- **Instrucciones de uso:
+  1. Obtener la URL pública de ngrok
+  2. Enviar solicitudes de predicción.
+     
 - **Instrucciones de mantenimiento:** (instrucciones detalladas para mantener el modelo en la plataforma de despliegue)
