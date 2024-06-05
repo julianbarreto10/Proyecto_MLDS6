@@ -7,8 +7,49 @@ Este informe describe los resultados del proyecto de machine learning y presenta
 ## Resultados del proyecto
 
 - Resumen de los entregables y logros alcanzados en cada etapa del proyecto.
+
+### **Entendimiento del Negocio y Carga de Datos:**
+
+**Logros:** Definición clara del problema y los beneficiarios del proyecto, especificación del alcance y obtención de los datos históricos del S&P 500.
+**Entregables:** Marco del proyecto, trasfondo del negocio, descripción del conjunto de datos, y código para la adquisición y carga de datos.
+
+### **Entendimiento y Preparación de los Datos:**
+
+**Logros:** Análisis exploratorio de los datos, identificación y manejo de datos faltantes, conversión de formatos incorrectos, y análisis de correlación entre variables.
+**Entregables:** Informes de calidad de datos, análisis descriptivo de variables, y limpieza de datos.
+
+### **Diseño e Implementación Experimental:**
+
+**Logros:** Selección de modelos (LSTM, GRU, SimpleRNN), diseño del experimento, partición de los datos, y ajuste de hiperparámetros mediante grid search.
+**Entregables:** Diseño de la arquitectura de los modelos, implementación del código de entrenamiento, y selección del mejor modelo basado en métricas de rendimiento.
+
+### **Entrenamiento y Validación:**
+
+**Logros:** Entrenamiento de los modelos, evaluación de las métricas (MAE y MSE), y selección del modelo SimpleRNN por su mejor desempeño.
+**Entregables:** Modelos entrenados, resultados de las métricas de rendimiento, y análisis comparativo de los modelos.
+
 - Evaluación del modelo final y comparación con el modelo base.
+
+| Name             | MSE                | MAE                |
+|------------------|--------------------|--------------------|
+| GRU_model        | 0.035650983452796936 | 0.18458795547485352 |
+| best_model       | 0.002114337868988514 | 0.041881900280714035 |
+| LSTM_model       | 0.03753206878900528  | 0.18939462304115295 |
+| SimpleRNN_model  | 0.034011974930763245 | 0.18042214214801788 |
+
+
 - Descripción de los resultados y su relevancia para el negocio.
+
+### **Resultados:**
+
+**Precisión del Modelo:** El modelo SimpleRNN muestra una precisión adecuada en la predicción de los valores del índice S&P 500, con un MSE de 0.002114337868988514 y un MAE de 0.041881900280714035 en el conjunto de prueba.
+
+**Patrones Identificados:** La capacidad del modelo para capturar patrones temporales y hacer predicciones diarias precisas.
+
+### **Relevancia para el Negocio:**
+
+**Mejora en la Toma de Decisiones:** La herramienta proporciona predicciones precisas que ayudan a los inversores a tomar decisiones más informadas, optimizando estrategias de compra y venta.
+**Reducción de la Incertidumbre:** Al proporcionar una mayor claridad sobre las posibles tendencias del S&P 500, se reduce la incertidumbre del mercado.
 
 ## Lecciones aprendidas
 
