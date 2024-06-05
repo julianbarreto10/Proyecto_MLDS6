@@ -37,7 +37,7 @@ Este informe describe los resultados del proyecto de machine learning y presenta
 | LSTM_model       | 0.03753206878900528  | 0.18939462304115295 |
 | SimpleRNN_model  | 0.034011974930763245 | 0.18042214214801788 |
 
-![Gráfico de Predicción](../scripts/evaluation/predict.png)
+![Gráfico de Predicción](../../scripts/evaluation/predict.png)
 
 - Descripción de los resultados y su relevancia para el negocio.
 
