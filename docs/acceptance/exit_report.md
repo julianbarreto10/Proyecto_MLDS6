@@ -62,13 +62,23 @@ Este informe describe los resultados del proyecto de machine learning y presenta
 
 ## Impacto del proyecto
 
-- Descripción del impacto del modelo en el negocio o en la industria.
-- Identificación de las áreas de mejora y oportunidades de desarrollo futuras.
+El modelo permite realizar una sugerencia de los movimientos del mercado, permitiendo aprovechar oportunidades de inversión y evitar pérdidas potenciales. 
+basado en la prediccion del modelo, es posible ofrecer servicios mas precisos y personalizados a los clientes obteniendo ventaja sobre competidores.
+  
+el comportamiento de indice S&P 500 depende de multiples factores los cuales no se tuvieron en cuenta para realizar este modelo, por lo que agregar datos adicionales como redes sociales y análisis de sentimiento pertmitira captar señales del mercado que puedan afectar al índice.
+
+Mejorar la infraestructura para manejar un mayor volumen de datos y solicitudes, asegurando un rendimiento óptimo y una rápida respuesta del modelo.
+
 
 ## Conclusiones
 
-- Resumen de los resultados y principales logros del proyecto.
-- Conclusiones finales y recomendaciones para futuros proyectos.
+La implementación del modelo ha resultado en un soporte para la toma de decisiones financieras, optimizando  inversiones y eficiencia operativa.
+
+Este modelo permite diferenciar un comportamiento en el tiempo del inidice para mejorar servicios financieros que dependan de este. 
+
+
+Ampliar el modelo para incluir factores externos que puedan afectar al índice S&P 500, como indicadores macroeconómicos y eventos geopolíticos, para mejorar la precisión de las predicciones.
+
 
 ## Agradecimientos
 
