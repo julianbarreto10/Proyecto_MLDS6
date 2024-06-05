@@ -6,7 +6,9 @@ Este informe describe los resultados del proyecto de machine learning y presenta
 
 ## Resultados del proyecto
 
-- Resumen de los entregables y logros alcanzados en cada etapa del proyecto.
+- Para el presente proyecto se logro obtener un modelo que permite realizar predicciones que permitiran tomar decisiones en el futuro de esta manera se puede tomar decisiones de una manera mas acertada.
+- Comparando los 3 modelos que se usaron para el proyecto se pudo obtener sus metricas que establecen que el RNN logra un mejor desempeño con este conjunto de datos.
+- Un modelo y los hiperparametros que permiten tener unas metricas muy buenas se pueden desplegar con un servidor y hacer consultas que permitan predecir valores a utilizar por alguien externo.
 
 ### **Entendimiento del Negocio y Carga de Datos:**
 
@@ -54,9 +56,9 @@ Este informe describe los resultados del proyecto de machine learning y presenta
 
 ## Lecciones aprendidas
 
-- Identificación de los principales desafíos y obstáculos encontrados durante el proyecto.
-- Lecciones aprendidas en relación al manejo de los datos, el modelamiento y la implementación del modelo.
-- Recomendaciones para futuros proyectos de machine learning.
+- La limpieza de los datos fue un factor fundamental, debido a la manera en que venian los datos se tuvieron que tomar decisiones con diferentes franjas de tiempor para encontrar el ideal.
+- Cuando se tienen conjuntos de datos compuestos por series de datos las redes neuronales recurrentes tienen un desempeño bastante bueno a comparacion de otros metodos.
+- En las series de tiempo se deben tener en cuenta los outliers, los datos de entrada y los cambios de los datos.
 
 ## Impacto del proyecto
 
