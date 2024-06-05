@@ -37,6 +37,7 @@ Este informe describe los resultados del proyecto de machine learning y presenta
 | LSTM_model       | 0.03753206878900528  | 0.18939462304115295 |
 | SimpleRNN_model  | 0.034011974930763245 | 0.18042214214801788 |
 
+![Gráfico de Predicción](/workspaces/Proyecto_MLDS6/scripts/evaluation/predict.png)
 
 - Descripción de los resultados y su relevancia para el negocio.
 
@@ -70,4 +71,4 @@ Este informe describe los resultados del proyecto de machine learning y presenta
 ## Agradecimientos
 
 - Agradecimientos al equipo de trabajo y a los colaboradores que hicieron posible este proyecto.
-- Agradecimientos especiales a los patrocinadores y financiadores del proyecto.
+- Agradecimientos especiales a la Universidad Nacional de Colombia y en especifico a la oferta del curso "Metodologías Ágiles para el Desarrollo de Aplicaciones con Machine Learning" impartido por el profesor Jorge Eliécer Camargo Mendoza.
